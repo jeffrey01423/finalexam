@@ -1,0 +1,14 @@
+import pandas as pd
+c = ['國文','英文','數學','資訊科技']
+s = [84,92,88,95]
+
+sc = pd.Series(s, index = c)
+print(sc)
+
+print(sc[1])
+sc[1] = 100
+print(sc[1])
+
+print(sc['英文'])
+sc['英文'] = 80
+print(sc['英文'])
