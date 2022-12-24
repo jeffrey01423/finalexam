@@ -1,0 +1,8 @@
+k = ['國文','英文','數學','資訊科技']
+s = [84,92,88,95]
+sc = [k,s]
+print(sc)
+print(len(sc))
+print(len(sc[0]))
+for i in range(len(sc[0])):
+    print(sc[0][i],sc[1][i])
