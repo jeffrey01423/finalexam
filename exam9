@@ -1,0 +1,7 @@
+import pandas as pd
+
+url = "https://www.taiwanlottery.com.tw/Lotto/Lotto649/history.aspx"
+
+df = pd.read_html(url)
+print(df[1])
+print(df[2])s
