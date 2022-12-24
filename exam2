@@ -1,0 +1,13 @@
+import pandas as pd
+c = ['國文','英文','數學','資訊科技']
+s = [84,92,88,95]
+
+df = pd.DataFrame()
+print(df)
+
+cs = pd.Series(c)
+ss = pd.Series(s)
+print(cs)
+print(ss)
+print(cs[0])
+print(ss[0])
