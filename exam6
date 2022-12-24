@@ -1,0 +1,10 @@
+import pandas as pd
+
+c = ['國文','英文','數學','資訊科技']
+s = [84,92,88,95]
+df = pd.DataFrame()
+print(df)
+df['科目'] = c
+df['分數'] = s
+for i in range(len(df)):
+    print(df['科目'][i],df['分數'][i])
